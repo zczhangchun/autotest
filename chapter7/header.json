@@ -1,0 +1,22 @@
+[
+  {
+    "description":"模拟一个请求",
+    "request":{
+      "uri": "/getHeader",
+      "method": "POST",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "queries": {
+        "name": "zhangsan",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "content": "成功请求",
+        "time": "2000"
+      }
+    }
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+    <test name="one">
+        <classes>
+            <class name="com.zhangchun.suite.SuiteClass"/>
+            <class name="com.zhangchun.suite.OneClass"/>
+        </classes>
+    </test>
+    <test name="two">
+        <classes>
+            <class name="com.zhangchun.suite.SuiteClass"/>
+            <class name="com.zhangchun.suite.TwoClass"/>
+        </classes>
+    </test>
+</suite>

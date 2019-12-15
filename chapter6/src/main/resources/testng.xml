@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="paramter">
+    <test name="param">
+        <classes>
+            <class name="com.zhangchun.testng.BasicAnnotation">
+                <methods>
+                    <include name="m1"/>
+                    <include name="m2"/>
+                    <include name="m3"/>
+                    <include name="m4"/>
+                    <include name="m5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+<!--        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.zhangchun.testng.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>

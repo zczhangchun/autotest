@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="test">
+    <test name="runAll">
+        <classes>
+            <class name="com.zhangchun.groups.OneGroup"/>
+            <class name="com.zhangchun.groups.TwoGroup"/>
+            <class name="com.zhangchun.groups.OneGtoupToo"/>
+        </classes>
+    </test>
+    <test name="runOne">
+        <groups>
+            <run>
+                <include name="one"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.zhangchun.groups.OneGroup"/>
+            <class name="com.zhangchun.groups.OneGtoupToo"/>
+            <class name="com.zhangchun.groups.TwoGroup"/>
+        </classes>
+    </test>
+</suite>

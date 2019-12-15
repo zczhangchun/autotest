@@ -1,0 +1,15 @@
+[
+  {
+    "description":"模拟一个请求",
+    "request":{
+      "uri": "/getCookie",
+      "method": "GET",
+      "cookies": {
+        "login": "true"
+      }
+    },
+    "response": {
+      "text": "带cookie过来"
+    }
+  }
+]
